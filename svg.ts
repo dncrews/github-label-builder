@@ -11,10 +11,10 @@ const colorMap = new Map<string, string>([
   ['bad', RED],
   ['o', BLUE],
   ['optional', BLUE],
-  ['ok', BLUE],
   ['p', GREEN],
   ['pass', GREEN],
   ['good', GREEN],
+  ['ok', GREEN],
 ])
 
 const getFill = (style: string): string | void => {
