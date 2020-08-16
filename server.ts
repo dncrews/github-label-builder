@@ -15,7 +15,7 @@ const imageHandler = async ctx => {
   try {
     const body = svg({ style, text, isBig, isWide });
 
-    ctx.header.contentType = 'image/svg+xml'
+    ctx.set('Content-Type', 'image/svg+xml');
     ctx.body = body;
     return;
   } catch (e) {

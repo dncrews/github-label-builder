@@ -50,8 +50,7 @@ export const svg = ({ style, text, isBig }: Input): string=> {
 
   const innerWidth = 200;
 
-  return `
-  <?xml version="1.0" encoding="UTF-8"?>
+  return `<?xml version="1.0" encoding="UTF-8"?>
   <svg width="${width}px" height="${height}px" viewBox="0 0 ${innerWidth} 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>${style} ${text}</title>
     <desc>Created by hand, as one does.</desc>
