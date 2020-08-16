@@ -5,8 +5,8 @@
   "description": "SVG Label Rendering for Github PR Comments",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "ts-node-dev ./local.ts"
+    "local": "ts-node-dev ./src/local.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@koa/router": "^9.4.0",

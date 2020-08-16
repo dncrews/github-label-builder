@@ -12,7 +12,7 @@ provider:
 
 functions:
   svg:
-    handler: api.handler
+    handler: src/api.handler
     events:
       - http:
           method: get
