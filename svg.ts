@@ -22,8 +22,6 @@ const getFill = (style: string): string | void => {
   return value && value.toLowerCase()
 }
 
-const BIG_RATIO = 40/25;
-const WIDE_RATIO = 3/2;
 const BIG_TO_SMALL_RATIO = 25/40;
 // const
 
@@ -34,7 +32,7 @@ interface Input {
   isWide: boolean;
 }
 
-export const svg = ({ style, text, isBig, isWide }: Input): string=> {
+export const svg = ({ style, text, isBig }: Input): string=> {
   assert(!!style, 'style is required');
   assert(!!text, 'text is required');
 

@@ -7,11 +7,13 @@ plugins:
 provider:
   name: aws
   runtime: nodejs12.x
+  profile: dncrews
+  region: us-east-1
 
 functions:
-  hello:
+  svg:
     handler: api.handler
     events:
       - http:
           method: get
-          path: hello
+          path: /{proxy+}
