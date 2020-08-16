@@ -1,7 +1,8 @@
 {
   "name": "github-label",
+  "private": true,
   "version": "1.0.0",
-  "description": "Serverless webpack example using Typescript",
+  "description": "SVG Label Rendering for Github PR Comments",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,6 +25,6 @@
     "typescript": "^3.2.4",
     "webpack": "^4.29.0"
   },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "author": "Dan Crews <crewsd@gmail.com>",
   "license": "MIT"
 }
