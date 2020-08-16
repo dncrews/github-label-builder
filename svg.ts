@@ -20,7 +20,7 @@ const colorMap = new Map<string, string>([
 ])
 
 const getFill = (style: string): string | void => {
-  const value = colorMap.get(style)
+  const value = colorMap.get(style.toLowerCase())
   return value && value.toLowerCase()
 }
 
