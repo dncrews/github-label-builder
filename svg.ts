@@ -10,9 +10,11 @@ const colorMap = new Map<string, string>([
   ['blocking', RED],
   ['bad', RED],
   ['o', BLUE],
+  ['opt', BLUE],
   ['optional', BLUE],
   ['p', GREEN],
   ['pass', GREEN],
+  ['passing', GREEN],
   ['good', GREEN],
   ['ok', GREEN],
 ])
