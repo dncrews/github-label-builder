@@ -2,7 +2,9 @@
 
 This application renders SVG Labels for my use in Github Pull Request comments.
 
-Usage:
+## Usage
+
+### Github Markdown (Difficulty Level 2)
 ```
 ![Passing Question](https://your-website/passing/question.svg)
 What do you think of calling this variable `subscribedTopics` or something like that, just to make it more explicit?
@@ -36,6 +38,12 @@ I really like the way you did this. Awesome!
 >
 > I really like the way you did this. Awesome!
 
+### Alfred Workflow (Difficulty Level 1)
+If you use Alfred, I created a workflow that will compose the Markdown for you. Simply download and install the [Github PR Labels.alfredworkflow](Github%20PR%20Labels.alfredworkflow) in this repository.
+
+![Dialog Box: Consistency](.github/images/consistency.png)
+
+---
 
 ## OK, why did you make this?
 
@@ -56,7 +64,7 @@ In working through my fair share (and then some) of Pull Requests, I found that 
 
 I got tired of that, and it still wasn't very easy for me to at-a-glance show what was blocking and what wasn't. This was especially troublesome in very large Pull Requests (I know, we shouldn't have those, but we always seem to).
 
-## Enter Github Labels v1
+### Enter Github Labels v1
 I created a set of Github Labels (icons) that I could simply drop into my comments, which allowed me to quickly and succinctly describe both why I was putting the comment and how big of a deal it was:
 
 > ![Pass Question@0 5x](https://user-images.githubusercontent.com/353090/89137054-6f6c6800-d4eb-11ea-8934-a3e9d988db09.png)
@@ -73,11 +81,6 @@ I created a set of Github Labels (icons) that I could simply drop into my commen
 
 This was better, but I was just so frustrated that I couldn't use SVGs. Apparently, for Security Reasons, Github doesn't allow local SVGs
 
-## Enter Github Label Builder
+### Enter Github Label Builder
 
 With this project, I was able to generate SVGs remotely, so that Github would render them properly. I can use any of the "blocking", "optional", or "passing" button types, and any text (as long as it fits)
-
-### TODO
-- [x] Dynamic Texts
-- [ ] Dynamic Widths
-- [x] Double-size "Big Button" (Only use for celebrations, please)
