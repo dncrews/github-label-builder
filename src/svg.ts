@@ -78,7 +78,6 @@ interface Input {
   status: string
   content: string
   isBig: boolean
-  isWide: boolean
 }
 
 export const svg = ({ status, content, isBig }: Input): string=> {
