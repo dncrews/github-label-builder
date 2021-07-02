@@ -1,4 +1,4 @@
-import { svg } from "./svg";
+import { svg } from "./svg"
 
 const strings = [
   "Reticulating splines...",
@@ -250,7 +250,7 @@ const strings = [
 
 export const random = () => {
   const phraseIdx = Math.floor(Math.random() * strings.length)
-  const phrase = strings[phraseIdx];
+  const phrase = strings[phraseIdx]
   const statusIdx = Math.floor(Math.random() * 3)
   const status = ['blocking', 'optional', 'passing'][statusIdx]
   const isBig = Boolean(Math.floor(Math.random() * 2))
