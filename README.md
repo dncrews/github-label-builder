@@ -7,7 +7,7 @@ Usage:
 ![Passing Question](https://your-website/passing/question.svg)
 What do you think of calling this variable `subscribedTopics` or something like that, just to make it more explicit?
 ```
-> ![Passing Question](https://gh-labels.dancrews.com/passing/question.svg)
+> ![Passing Question](https://gh-labels.dancrews.com/passing/question….svg)
 >
 > What do you think of calling this variable `subscribedTopics` or something like > that, just to make it more explicit?
 
@@ -16,7 +16,7 @@ What do you think of calling this variable `subscribedTopics` or something like 
 ![Optional Best Practice](https://your-website/optional/best%20practice.svg)
 I would recommend we do the `console.error` BEFORE we save it to the database. That way, if the DB save also fails, we can capture both failures.
 ```
-> ![Optional Best Practice](https://gh-labels.dancrews.com/optional/best%20practice.svg)
+> ![Optional Best Practice](https://gh-labels.dancrews.com/optional/best%20practices.svg)
 >
 > I would recommend we do the `console.error` BEFORE we save it to the database. That way, if the DB save also fails, we can capture both failures.
 
@@ -24,7 +24,7 @@ I would recommend we do the `console.error` BEFORE we save it to the database. T
 ![Blocking Danger](https://your-website/blocking/danger.svg)
 If you don't `return await` here, you're not going to catch it in your `catch` here.
 ```
-> ![Blocking Danger](https://gh-labels.dancrews.com/blocking/danger.svg)
+> ![Blocking Danger](https://gh-labels.dancrews.com/blocking/dangerous.svg)
 >
 > If you don't `return await` here, you're not going to catch it in your `catch` here.
 
@@ -32,7 +32,7 @@ If you don't `return await` here, you're not going to catch it in your `catch` h
 ![Passing Kudos](https://your-website/passing/kudos.svg?big)
 I really like the way you did this. Awesome!
 ```
-> ![Passing Kudos](https://gh-labels.dancrews.com/passing/kudos.svg?big)
+> ![Passing Kudos](https://gh-labels.dancrews.com/passing/huzzah.svg?big)
 >
 > I really like the way you did this. Awesome!
 
